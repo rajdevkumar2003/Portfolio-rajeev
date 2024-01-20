@@ -1,22 +1,22 @@
 import React from 'react'
-import {BsTelephone,BsInstagram} from 'react-icons/bs'
-import {FaFacebook} from 'react-icons/fa'
+import {BsTelephone,BsTwitter ,BsMailbox2} from 'react-icons/bs';
+
 const SocialMedia = () => {
   return (
     <div className='app__social'>
        <div>
-       <a href='https://m.facebook.com/profile.php?id=100013385655846'>
+       <a href='tel:+917879548574'>
          <BsTelephone/>
          </a>
        </div>
        <div>
-       <a href='https://m.facebook.com/profile.php?id=100013385655846'>
-         <FaFacebook/>
+       <a href='https://twitter.com/rajeevv___'>
+         <BsTwitter/>
          </a>
        </div>
        <div>
-       <a href='https://www.instagram.com/rajeevv___/'>
-         <BsInstagram/>
+       <a   href="mailto:rajeevkumarjbo2003@gmail.com ">
+         <BsMailbox2/>
          </a>
        </div>
       

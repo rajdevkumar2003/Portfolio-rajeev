@@ -20,5 +20,13 @@ export {default as Expense_tracker} from './expense-tracker.png';
 export {default as Threejs} from './Threejs.png';
 export {default as Arpics} from './Arpics.png';
 export {default as Threads} from './threads-nextjs.png'
+export {default as epicCaption} from './epicCaption.png'
+export {default as airbnb} from './airbnb.png'
+export {default as blog} from './blog.png'
+export {default as devflow} from './devflow.png'
+
+
+
+
 
 

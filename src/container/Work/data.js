@@ -21,12 +21,80 @@ import {
   Expense_tracker,
   Threejs,
   Arpics,
-  Threads
+  Threads,
+  epicCaption,
+  airbnb,
+  blog,
+  devflow
 
   
 } from "../../images";
 
 const works = [
+  {
+    name: "DevFlow",
+    title: "Stackoverflow Clone",
+    tags: "SocialMedia NextJs",
+    description: "A fully responsive modern FULLSTACK stackoverflow clone made with Next-js,typescript,Tailwind,mongodb & Nodejs , chatGPT api, clerk! we can vote, view, ask & answer to any question , modern signup, signin , AI answer generation ",
+    img: devflow,
+    gitLink:'https://github.com/rajdevkumar2003/stack-overflow-mainproject-AI-nextjs14',
+    webLink:'https://stack-overflow-mainproject-ai-nextjs14.vercel.app/'
+  },
+  
+  {
+    name: "EpicCaptions",
+    title: "Video Transcriber",
+    tags: "NextJs",
+    description: "A modern website used to apply caption on any video! made with nextjs, AWS transcriber & S3 bucket",
+    img: epicCaption,
+    gitLink:'https://github.com/rajdevkumar2003/video-transcriber-nextjs-aws',
+    webLink:'https://gemoo.com/tools/upload-video/share/599598908459880448?codeId=MlQkV3Oxr8X3b&card=599598902126481408&origin=videolinkgenerator '
+  },
+  {
+    name: "Threads",
+    title: "Social Media(Nextjs)",
+    tags: "SocialMedia NextJs",
+    description: "A fully responsive modern Threads clone made with Next-js,typescript,Tailwind,mongodb & Nodejs!",
+    img: Threads,
+    gitLink:'https://github.com/rajdevkumar2003/threads-clone-full-stack',
+    webLink:'https://threads-clone-rajeev.vercel.app/'
+  },
+  {
+    name: "EarBooth",
+    title: "Ecommerce website (Next-js)",
+    tags: "Ecommerce NextJs",
+    description: "A fully responsive modern ecommerce website made with Next-js and payment functionality with Stripe!",
+    img: ecommerce,
+    gitLink:'https://github.com/rajdevkumar2003/ecommerce-earbooth-react-sanity',
+    webLink:'https://ecommerce-sanity-stripe.vercel.app/'
+  },
+  {
+    name: "Expanse Tracker",
+    title: "Data autofill using Speechly",
+    tags: "Voice assistant",
+    description: "A fully responsive modern Expanse Tracker website made with React-js and VOICE functionality with Speechly!",
+    img: Expense_tracker,
+    gitLink:'https://github.com/rajdevkumar2003/expense-tracker-speechly',
+    webLink:'https://expense-tracker-speechly-rajeev.netlify.app'
+  },
+  {
+    name: "Airbnb-clone",
+    title: "Hotel booking app",
+    tags: "SocialMedia MERN",
+    description: "A fully responsive modern Airbnb full-stack clone made with Reactjs,express,Tailwind,mongodb & Nodejs!",
+    img: airbnb,
+    gitLink:'https://github.com/rajdevkumar2003/hotel-booking-app-fullstack-MERN',
+    webLink:'https://gemoo.com/tools/upload-video/share/599598908459880448?codeId=MlQkV3Oxr8X3b&card=599598902126481408&origin=videolinkgenerator '
+  },
+  {
+    name: "T-Layerz",
+    title: "Tshirt Customizer(Three.js & AI)",
+    tags: "ThreeJS NextJs",
+    description: "A fully responsive modern ecommerce website made with Next-js and payment functionality with Stripe!",
+    img: Threejs,
+    gitLink:'https://github.com/rajdevkumar2003/Threejs-ai-Tapp',
+    webLink:'https://t-customizer-rajeev.netlify.app'
+  },
   {
     name: "Arpics",
     title: "Social Media(react)",
@@ -37,49 +105,22 @@ const works = [
     webLink:'https://arpics-rajeev.netlify.app/'
   },
   {
-    name: "Threads",
-    title: "Social Media(Nextjs)",
-    tags: "SocialMedia",
-    description: "A fully responsive modern Threads clone made with Next-js,typescript,Tailwind,mongodb & Nodejs!",
-    img: Threads,
-    gitLink:'https://github.com/rajdevkumar2003/threads-clone-full-stack',
-    webLink:'https://threads-clone-rajeev.vercel.app/'
-  },
-  {
-    name: "T-Layerz",
-    title: "Tshirt Customizer(Three.js & AI)",
-    tags: "ThreeJS",
-    description: "A fully responsive modern ecommerce website made with Next-js and payment functionality with Stripe!",
-    img: Threejs,
-    gitLink:'https://github.com/rajdevkumar2003/Threejs-ai-Tapp',
-    webLink:'https://t-customizer-rajeev.netlify.app'
-  },
-  {
-    name: "EarBooth",
-    title: "Ecommerce website (Next-js)",
-    tags: "Ecommerce",
-    description: "A fully responsive modern ecommerce website made with Next-js and payment functionality with Stripe!",
-    img: ecommerce,
-    gitLink:'https://github.com/rajdevkumar2003/ecommerce-earbooth-react-sanity',
-    webLink:'https://ecommerce-sanity-stripe.vercel.app/'
+    name: "BlogAPP",
+    title: "Blog APP",
+    tags: "MERN",
+    description: "A fully responsive modern Blog App made with Reactjs,express,Tailwind,mongodb & Nodejs! We can edit &upload post, signin & signup",
+    img: blog,
+    gitLink:'https://github.com/rajdevkumar2003/MERN-Blog-app',
+    webLink:'https://gemoo.com/tools/upload-video/share/599598908459880448?codeId=MlQkV3Oxr8X3b&card=599598902126481408&origin=videolinkgenerator '
   },
   {
     name: "News Reader",
     title: "News with AI VOICE",
-    tags: "Voice assistant",
+    tags: "Voice assistant API",
     description: "A fully responsive modern News website made with React-js and VOICE functionality with Alan AI!",
     img: news,
     gitLink:'https://github.com/rajdevkumar2003/News-webApp-alan-AI',
     webLink:'https://news-by-rajeev-alan-ai.netlify.app'
-  },
-  {
-    name: "Expanse Tracker",
-    title: "Data autofill using Speechly",
-    tags: "Voice assistant",
-    description: "A fully responsive modern Expanse Tracker website made with React-js and VOICE functionality with Speechly!",
-    img: Expense_tracker,
-    gitLink:'https://github.com/rajdevkumar2003/expense-tracker-speechly',
-    webLink:'https://expense-tracker-speechly-rajeev.netlify.app'
   },
   {
     name: "StayFIT",

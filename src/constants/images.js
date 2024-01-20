@@ -1,3 +1,4 @@
+/* eslint-disable import/no-anonymous-default-export */
 import email from '../assets/email.png';
 import mobile from '../assets/mobile.png';
 import api from '../assets/api.png';
@@ -40,6 +41,12 @@ import nb from '../assets/nb.png';
 import skype from '../assets/skype.png';
 import spotify from '../assets/spotify.png';
 import rajeevlogo from '../assets/rajeevlogo.png';
+import tailwind from '../assets/tailwind.png';
+
+import chatgpt from '../assets/rajeevlogo.png';
+import aws from '../assets/aws.png';
+
+
 
 export default {
   email,
@@ -81,4 +88,7 @@ export default {
   AI,
   sanity,
   postman,
+  aws,
+  chatgpt,
+  tailwind
 };
