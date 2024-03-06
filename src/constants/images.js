@@ -42,6 +42,7 @@ import skype from '../assets/skype.png';
 import spotify from '../assets/spotify.png';
 import rajeevlogo from '../assets/rajeevlogo.png';
 import tailwind from '../assets/tailwind.png';
+import hero from '../assets/hero.png';
 
 import chatgpt from '../assets/rajeevlogo.png';
 import aws from '../assets/aws.png';
@@ -57,6 +58,7 @@ export default {
   figma,
   flutter,
   git,
+  hero,
   graphql,
   html,
   javascript,
