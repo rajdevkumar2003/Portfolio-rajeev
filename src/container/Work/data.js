@@ -48,7 +48,7 @@ const works = [
     description: "A modern website used to apply caption on any video! made with nextjs, AWS transcriber & S3 bucket",
     img: epicCaption,
     gitLink:'https://github.com/rajdevkumar2003/video-transcriber-nextjs-aws',
-    webLink:'https://gemoo.com/tools/upload-video/share/599598908459880448?codeId=MlQkV3Oxr8X3b&card=599598902126481408&origin=videolinkgenerator '
+    webLink:'https://video-transcriber-next-aws.vercel.app/'
   },
   {
     name: "Threads",
