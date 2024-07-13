@@ -24,6 +24,8 @@ export {default as epicCaption} from './epicCaption.png'
 export {default as airbnb} from './airbnb.png'
 export {default as blog} from './blog.png'
 export {default as devflow} from './devflow.png'
+export {default as guruji} from './guruji.png'
+
 
 
 

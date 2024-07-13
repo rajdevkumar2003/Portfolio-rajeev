@@ -25,17 +25,27 @@ import {
   epicCaption,
   airbnb,
   blog,
-  devflow
+  devflow,
+  guruji
 
   
 } from "../../images";
 
 const works = [
   {
+    name: "GURUJI",
+    title: "AI Interview Mocker",
+    tags: "API Voice assistant NextJs",
+    description: "Developed GURUJI, a web app providing mock AI interviews with real-time feedback, utilizing Next.js, PostgreSQL, Gemini AI, ClerkAuth, ShadcnUI, and Speech to Text.",
+    img: guruji,
+    gitLink:'https://github.com/rajdevkumar2003/guruji-interview-mocker',
+    webLink:'https://guruji-interview-mocker.vercel.app/'
+  },
+  {
     name: "DevFlow",
     title: "Stackoverflow Clone",
-    tags: "SocialMedia NextJs",
-    description: "A fully responsive modern FULLSTACK stackoverflow clone made with Next-js,typescript,Tailwind,mongodb & Nodejs , chatGPT api, clerk! we can vote, view, ask & answer to any question , modern signup, signin , AI answer generation ",
+    tags: "API SocialMedia NextJs",
+    description: "Developed Fullstack stackoverflow clone utilizing Nextjs ,typescript , Tailwind,mongodb & Nodejs , chatGPT api, clerk! includes AI answer generation as well ",
     img: devflow,
     gitLink:'https://github.com/rajdevkumar2003/stack-overflow-mainproject-AI-nextjs14',
     webLink:'https://stack-overflow-mainproject-ai-nextjs14.vercel.app/'
