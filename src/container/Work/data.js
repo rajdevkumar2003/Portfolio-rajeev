@@ -26,9 +26,8 @@ import {
   airbnb,
   blog,
   devflow,
-  guruji
-
-  
+  guruji,
+  sundown
 } from "../../images";
 
 const works = [
@@ -140,6 +139,15 @@ const works = [
     img: gym,
     gitLink:'',
     webLink:''
+  },
+  {
+    name: "Sundown",
+    title: "Sundown clone",
+    tags: "HTML & CSS",
+    description: "A fully responsive modern ANIMATED Sundown CLONE made with HTML , CSS , GSAP & JAVASCRIPT!",
+    img: sundown,
+    gitLink:'https://github.com/rajdevkumar2003/sundown-frontend-clone-javascript-practice-',
+    webLink:'https://sundown-frontend-clone-javascript-practice.vercel.app/'
   },
   {
     name: "Youtoob",
