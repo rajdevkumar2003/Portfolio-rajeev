@@ -27,18 +27,19 @@ import {
   blog,
   devflow,
   guruji,
-  sundown
+  sundown,
+  webify
 } from "../../images";
 
 const works = [
   {
-    name: "GURUJI",
-    title: "AI Interview Mocker",
-    tags: "API Voice assistant NextJs",
-    description: "Developed GURUJI, a web app providing mock AI interviews with real-time feedback, utilizing Next.js, PostgreSQL, Gemini AI, ClerkAuth, ShadcnUI, and Speech to Text.",
-    img: guruji,
-    gitLink:'https://github.com/rajdevkumar2003/guruji-interview-mocker',
-    webLink:'https://guruji-interview-mocker.vercel.app/'
+    name: "WEBIFY",
+    title: "An AI React App Builder",
+    tags: "NextJs",
+    description: "Developed WEBIFY, a web app use to build any react application using prompts.",
+    img: webify,
+    gitLink:'https://github.com/rajdevkumar2003/webify-nextjs-postgresql',
+    webLink:'https://webify-nextjs-postgresql.vercel.app/'
   },
   {
     name: "DevFlow",
@@ -58,6 +59,15 @@ const works = [
     img: epicCaption,
     gitLink:'https://github.com/rajdevkumar2003/video-transcriber-nextjs-aws',
     webLink:'https://video-transcriber-next-aws.vercel.app/'
+  },
+  {
+    name: "GURUJI",
+    title: "AI Interview Mocker",
+    tags: "API Voice assistant NextJs",
+    description: "Developed GURUJI, a web app providing mock AI interviews with real-time feedback, utilizing Next.js, PostgreSQL, Gemini AI, ClerkAuth, ShadcnUI, and Speech to Text.",
+    img: guruji,
+    gitLink:'https://github.com/rajdevkumar2003/guruji-interview-mocker',
+    webLink:'https://guruji-interview-mocker.vercel.app/'
   },
   {
     name: "Threads",
